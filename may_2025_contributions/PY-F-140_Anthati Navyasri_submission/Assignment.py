@@ -1,0 +1,149 @@
+VARIABLES:
+first_name = "Anthati"
+last_name = "Navyasri"
+print(first_name+""+last_name)
+
+
+NUMERIC OPERATORS:
+num1=int(input("Enter the first whole number:"))
+num2=int(input("Enter the second whole number:"))
+sum_result=num1 + num2
+difference=num1 - num2
+product=num1 * num2
+if num2 !=0:
+    quotient=num1/num2
+else:
+    quotient="undifined(division by zero)"
+    print("Sum:",sum_result)
+    print("Difference:",difference)
+    print("Product:",product)
+    print("Quotient:",quotient)
+
+
+ASSIGNMENT OPERATOR:
+    count=0
+    count+=1
+    count+=1
+    count+=1
+    print(count)
+
+
+COMPARISON OPERATOR:
+    age=int(input("Enter age:"))
+    print(age>=18)
+
+
+LOGICAL OPERATOR:
+    a=input("Eneter first Boolean value(True/False):")=="True"
+    b=input("Enter second Boolean value(True/False):")=="True"
+    print("a and b:",a and b)
+    print("a or b:",a or b)
+    print("not a:",not a)
+    print("not b:",not b)
+
+
+BOOLEAN TYPE:
+    values=[0,'',42]
+    for value in values:
+        if value:
+            print(f"{value!r}is truthy")
+            print(f"{value!r}is falsy")
+
+
+ BITWISE OPERATOR:
+    a=5
+    b=3
+    print("a&b:",a&b) 
+    print("a|b:",a|b)
+
+          
+IDENTITY OPERATOR:
+    a=[1,2]
+    b=[1,2]
+    print("a is b:",a is b)
+    print("a == b:",a == b)
+
+
+MEMBERSHIP OPERATOR:
+    letter = input("Enter a letter")
+    word = "python"
+    if letter in word:
+        print(f"The letter'{letter}'appears in the word 'python'.")
+        print(f"The letter'{letter}'does not appear in the word 'python'.")
+
+
+INPUT():
+    color = input("What is your favorite color?")
+    print(f"Your favorite color is{color}.")
+
+
+PRINT()FORMATTING:
+    print(1,2,3,4,5,sep=',')
+
+
+DECOMPOSITION/FUNCTIONS:
+    def square(n)
+       return n*n 
+    for i in range(1,6)
+        print(f"square of {i} is {square(i)}")
+
+
+INDENTATION:
+    for i in range(1,6):
+        print('*'* i) 
+
+
+LINE CONTINUATION:
+    total = 3+4+ \
+            5+6+\
+            7
+    print(total)
+
+
+PYLINT BASICS:
+ x=6
+ print(x)
+
+
+ CLI args:
+ import sys
+ print("You said:",sys.argv)
+
+
+ INTEGER:
+ num = int(intput("Enter an integer:"))
+ print("square is:",num**2) 
+
+
+ FLOATS:
+ celsius=float(input("Enter temperature in celsius:"))
+ fahrenheit=celsius*9/5+32
+ print("Temperature in Fahrenheit:",fahrenheit)
+
+
+ COMPARISION+LOGICAL:
+ a=int(input("Enter first number:"))
+ b=int(input("Enter second number:"))
+ c=int(input("Enter third number:"))
+ print(a<b<c)
+
+
+ NUMERIC OPERATORS & CHANGE-MAKER:
+      amount=int(input("Enter amount less than 100:"))
+      fifties=amount//50
+      tens=(amount%50)//10
+      print("$50 notes:",fifties) 
+      print("$10 coins:",tens)
+                     
+
+
+
+
+
+
+
+
+
+
+
+
